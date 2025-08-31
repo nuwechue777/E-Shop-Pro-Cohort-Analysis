@@ -41,7 +41,7 @@ The goal is to:
 
 ### 🔹 Exploratory Data Analysis (EDA)  
 - Removed **135,080 null CustomerID entries** to ensure integrity.  
-- Identified **Top 5 countries** by unique customers (UK, Germany, France, Netherlands, Norway).  
+- Identified **Top 5 countries** by unique customers (Mozambique, Benin, Togo, Nigeria, Burkina Faso).  
 - Analyzed **monthly revenue trends** → identified seasonal revenue growth patterns.  
 
 ---
