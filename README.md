@@ -79,5 +79,4 @@ The goal is to:
 - VIPs mostly from **older cohorts** who stayed active across multiple months.  
 - Recent cohorts dominated by **New/At-Risk customers**, confirming early churn risk.  
 
-
 ---
