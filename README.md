@@ -10,7 +10,7 @@
 ---
 
 ## 🎯 Project Objective  
-The **Customer Retention & Cohort Analysis** project focuses on identifying patterns in customer engagement and churn to help businesses improve long-term loyalty.  
+The Customer Retention & Cohort Analysis project focuses on identifying patterns in customer engagement and churn to help businesses improve long-term loyalty.  
 
 The goal is to:  
 - Understand how different customer cohorts behave over time.  
@@ -68,13 +68,10 @@ The goal is to:
 
 | Segment            | Profile | Strategy |  
 |--------------------|---------|----------|  
-| 🏆 VIP / High-Value | Low Recency, High F/M | Nurture loyalty, VIP perks |  
-| 🔄 Regulars        | Moderate Recency, Medium F/M | Upsell, cross-sell |  
-| ⚠️ At-Risk         | High Recency, low recent activity | Win-back campaigns |  
-| ❌ Churned/Low-Value | Long Recency, low F/M | Light-touch reactivation |  
-
-![RFM Clusters](reports/figures/rfm_profile_by_cluster.png)  
-
+• Active & Steady Buyers: Reliable customers, stable revenue
+• At Risk Customers: Long time since last purchase, may churn
+• High-Value VIPs: Tiny group, huge spend — top priority
+• Engaged Loyalists: Growing VIPs, high frequency, strong potential
 ---
 
 ### 🔹 Linking Cohorts to Clusters  
@@ -82,32 +79,5 @@ The goal is to:
 - VIPs mostly from **older cohorts** who stayed active across multiple months.  
 - Recent cohorts dominated by **New/At-Risk customers**, confirming early churn risk.  
 
-![Cohort by Segment](reports/figures/cohort_by_segment_stacked_share.png)  
 
 ---
-
-## 🚀 Repository Structure  
-
-customer-retention-cohort-analysis/
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── data/
-│ ├── raw/ <- Original dataset
-│ └── processed/ <- Cleaned dataset
-├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Cohort_Analysis.ipynb
-│ ├── 03_Segmentation.ipynb
-│ └── 04_Report.ipynb
-├── reports/
-│ ├── figures/ <- Charts for slides/reports
-│ └── Cohort_Analysis_Report.pdf
-├── src/
-│ ├── data_preparation.py
-│ ├── cohort_analysis.py
-│ └── segmentation.py
-└── outputs/
-├── tables/
-└── charts/
