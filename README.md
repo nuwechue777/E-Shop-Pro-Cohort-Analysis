@@ -65,13 +65,19 @@ The goal is to:
 - Computed **Recency, Frequency, Monetary (RFM)** features.  
 - Applied **KMeans clustering** to segment customers.  
 - Identified clear profiles:  
-
-| Segment            | Profile | Strategy |  
-|--------------------|---------|----------|  
 • Active & Steady Buyers: Reliable customers, stable revenue
 • At Risk Customers: Long time since last purchase, may churn
 • High-Value VIPs: Tiny group, huge spend — top priority
 • Engaged Loyalists: Growing VIPs, high frequency, strong potential
+
+---
+
+### 🔹 Recommendations
+• VIPs : Exclusive offers, loyalty perks, personalised engagement.
+• Steady Buyers : Upsell with bundles, encourage larger checkout carts.
+• At Risk : Reactivation campaigns with discounts & surveys.
+• New Customers : Onboarding emails, first-purchase discounts, personalized product recommendations.
+
 ---
 
 ### 🔹 Linking Cohorts to Clusters  
